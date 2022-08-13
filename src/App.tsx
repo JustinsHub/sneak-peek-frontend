@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
+import Footer from './Footer';
+import Home from './Home';
+import Navbar from './Navbar';
 
 const App:React.FC = () => {
   return (
-    <div className="App">
-      Sneak-Peak-App
-    </div>
+    <main>
+      <Navbar/>
+      <Home/>
+      <Footer/>
+    </main>
   );
 }
 

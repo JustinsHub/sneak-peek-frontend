@@ -14,18 +14,21 @@ const UserSignUp:React.FC = () => {
             <form>
                 <label>Username:</label>
                 <input
+                type="text"
                 name="username"
                 value={signUpData.username}
                 onChange={handleChange}
                 />
                 <label>Password:</label>
                 <input
+                type="password"
                 name="password"
                 value={signUpData.password}
                 onChange={handleChange}
                 />
                 <label>Email:</label>
                 <input
+                type="email"
                 name="email"
                 value={signUpData.email}
                 onChange={handleChange}
